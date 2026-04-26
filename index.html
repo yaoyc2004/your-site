@@ -1,40 +1,170 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>我的网站</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f7f4ef;
-      color: #222;
-    }
-    main {
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 32px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 16px;
-    }
-    p {
-      font-size: 20px;
-      max-width: 620px;
-      line-height: 1.6;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Merlin Scientific | North America GTM Partner for Life Science Tool Companies</title>
+  <meta name="description" content="Merlin Scientific helps Chinese reagent, consumable, and instrument manufacturers validate, enter, and grow in the North American research market.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <div>
-      <h1>你好，我的网站上线了</h1>
-      <p>这是我的第一个网站。接下来我会把它改成真正的个人网站、作品集、品牌官网或店铺页面。</p>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Merlin Scientific home">
+      <img src="assets/merlin-scientific-mark.png" alt="">
+      <span data-i18n="brandName">Merlin Scientific</span>
+    </a>
+    <div class="language-switch" role="group" aria-label="Language switch">
+      <button class="lang-button is-active" type="button" data-lang-option="en" aria-pressed="true">EN</button>
+      <button class="lang-button" type="button" data-lang-option="zh" aria-pressed="false">中文</button>
     </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="#model" data-i18n="navModel">Model</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a class="nav-cta" href="mailto:info@merlinscientific.com" data-i18n="navContact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">North America research market entry</p>
+        <h1 data-i18n="heroTitle">GTM partner for life science tool companies.</h1>
+        <p class="hero-text" data-i18n="heroText">
+          Merlin Scientific helps Chinese reagent, consumable, and instrument manufacturers validate,
+          enter, and grow in the North American research market.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:info@merlinscientific.com" data-i18n="heroPrimary">Request a market conversation</a>
+          <a class="button secondary" href="#services" data-i18n="heroSecondary">See how we help</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <img src="assets/north-america-lab-bg.png" alt="">
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="whoEyebrow">Who we help</p>
+        <h2 data-i18n="whoTitle">Built for manufacturers ready to test North America.</h2>
+      </div>
+      <div class="intro-grid">
+        <p data-i18n="whoTextOne">
+          We work with emerging life science tool companies preparing to evaluate North American demand,
+          customer fit, channel options, and sales readiness.
+        </p>
+        <p data-i18n="whoTextTwo">
+          The first focus is RUO research products: reagents, antibodies, proteins, ELISA kits,
+          molecular biology reagents, consumables, and selected lab instruments or equipment.
+        </p>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="servicesEyebrow">What we do</p>
+        <h2 data-i18n="servicesTitle">Validation, lead generation, and channel readiness.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span>01</span>
+          <h3 data-i18n="serviceOneTitle">GTM Validation Sprint</h3>
+          <p data-i18n="serviceOneText">Segment selection, competitor scan, ICP definition, prospect list, outreach testing, and go/no-go recommendations.</p>
+        </article>
+        <article class="service-card">
+          <span>02</span>
+          <h3 data-i18n="serviceTwoTitle">Scientific Lead Generation</h3>
+          <p data-i18n="serviceTwoText">Targeted outreach to PI labs, core facilities, biotech teams, CRO/CDMO groups, and pharma discovery users.</p>
+        </article>
+        <article class="service-card">
+          <span>03</span>
+          <h3 data-i18n="serviceThreeTitle">Distributor Readiness</h3>
+          <p data-i18n="serviceThreeText">Distributor mapping, pitch assets, margin story, technical FAQ, and partner outreach preparation.</p>
+        </article>
+        <article class="service-card">
+          <span>04</span>
+          <h3 data-i18n="serviceFourTitle">Sales Asset Localization</h3>
+          <p data-i18n="serviceFourText">English one-pagers, email sequences, application pitches, battlecards, and meeting scripts for North American buyers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section model" id="model">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="modelEyebrow">Engagement model</p>
+        <h2 data-i18n="modelTitle">Validate first. Scale only when the market responds.</h2>
+      </div>
+      <div class="phase-list">
+        <article>
+          <strong data-i18n="phaseOneLabel">Phase 1</strong>
+          <h3 data-i18n="phaseOneTitle">4-6 week validation sprint</h3>
+          <p data-i18n="phaseOneText">Clarify product positioning, test buyer response, identify high-fit contacts, and define the next market step.</p>
+        </article>
+        <article>
+          <strong data-i18n="phaseTwoLabel">Phase 2</strong>
+          <h3 data-i18n="phaseTwoTitle">Pilot sales support</h3>
+          <p data-i18n="phaseTwoText">Support meeting preparation, technical messaging, trial coordination, objections, and quote follow-up.</p>
+        </article>
+        <article>
+          <strong data-i18n="phaseThreeLabel">Phase 3</strong>
+          <h3 data-i18n="phaseThreeTitle">Channel development</h3>
+          <p data-i18n="phaseThreeText">Prepare distributor-facing assets, partner mapping, pitch materials, and a repeatable sales playbook.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section boundary">
+      <div class="boundary-panel">
+        <div>
+          <p class="eyebrow" data-i18n="boundaryEyebrow">Focused GTM partnership</p>
+          <h2 data-i18n="boundaryTitle">Practical support from market validation to channel readiness.</h2>
+        </div>
+        <p data-i18n="boundaryText">
+          Merlin Scientific helps manufacturers clarify positioning, test buyer response, prepare sales
+          assets, identify qualified prospects, and open the right customer or channel conversations.
+          Product fulfillment, import, logistics, warranty, and regulatory execution are coordinated
+          through the manufacturer or its appointed operational partners.
+        </p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-mark">
+        <img src="assets/merlin-scientific-mark.png" alt="">
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="aboutEyebrow">About Merlin Scientific</p>
+        <h2 data-i18n="aboutTitle">Scientific sales and BD support for the messy middle of market entry.</h2>
+        <p data-i18n="aboutTextOne">
+          North American buyers rarely have time to decode an unfamiliar supplier. They want to know
+          what problem a product solves, how it compares with current options, what data supports it,
+          and who is responsible when something goes wrong.
+        </p>
+        <p data-i18n="aboutTextTwo">
+          Merlin Scientific helps manufacturers turn product catalogs into focused market conversations,
+          with positioning, outreach, channel preparation, and early customer discovery built around
+          real research use cases.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+        <h2 data-i18n="contactTitle">Start with a focused market conversation.</h2>
+        <p data-i18n="contactText">
+          If you are evaluating North America for a life science reagent, consumable, instrument,
+          or research equipment product line, send a short note with the product category and target market.
+        </p>
+      </div>
+      <a class="button primary" href="mailto:info@merlinscientific.com">info@merlinscientific.com</a>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footerText">&copy; 2026 Merlin Scientific. GTM advisory and business development support for the North American research market.</p>
+  </footer>
+  <script src="language.js"></script>
 </body>
 </html>

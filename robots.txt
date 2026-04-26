@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://merlinscientific.com/sitemap.xml
