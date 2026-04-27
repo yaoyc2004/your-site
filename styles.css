@@ -242,7 +242,7 @@ h3 {
 }
 
 .service-card {
-  min-height: 280px;
+  min-height: 310px;
   padding: 24px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -261,6 +261,40 @@ h3 {
 .about p,
 .contact p {
   color: var(--muted);
+}
+
+.platform-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.platform-item {
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.platform-item strong {
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.platform-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border: 1px solid rgba(216, 226, 225, 0.78);
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 0 10px 22px rgba(23, 37, 40, 0.12);
 }
 
 .model {
@@ -426,6 +460,14 @@ h3 {
 
   .service-grid {
     grid-template-columns: 1fr;
+  }
+
+  .platform-strip {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .platform-item strong {
+    display: none;
   }
 
   .button {

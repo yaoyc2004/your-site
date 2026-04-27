@@ -1,53 +1,53 @@
 const translations = {
   en: {
-    title: "Merlin Scientific | North America GTM Partner for Life Science Tool Companies",
-    description: "Merlin Scientific helps Chinese reagent, consumable, and instrument manufacturers validate, enter, and grow in the North American research market.",
+    title: "Merlin Scientific | China Market Visibility for Life Science Tool Companies",
+    description: "Merlin Scientific helps Western reagent, consumable, and instrument companies build Chinese media presence, localized scientific content, and channel readiness for China's research market.",
     brandName: "Merlin Scientific",
     navServices: "Services",
     navModel: "Model",
     navAbout: "About",
     navContact: "Contact",
-    heroEyebrow: "North America research market entry",
-    heroTitle: "GTM partner for life science tool companies.",
-    heroText: "Merlin Scientific helps Chinese reagent, consumable, and instrument manufacturers validate, enter, and grow in the North American research market.",
+    heroEyebrow: "China research market visibility",
+    heroTitle: "Chinese media and GTM support for life science tool companies.",
+    heroText: "Merlin Scientific helps Western reagent, consumable, and instrument companies build Chinese visibility, scientific content, and channel readiness for China's research market.",
     heroPrimary: "Request a market conversation",
     heroSecondary: "See how we help",
     whoEyebrow: "Who we help",
-    whoTitle: "Built for manufacturers ready to test North America.",
-    whoTextOne: "We work with emerging life science tool companies preparing to evaluate North American demand, customer fit, channel options, and sales readiness.",
+    whoTitle: "Built for Western manufacturers exploring China.",
+    whoTextOne: "We work with small and mid-sized life science tool companies that need a credible Chinese presence before distributors, researchers, and procurement teams can evaluate them.",
     whoTextTwo: "The first focus is RUO research products: reagents, antibodies, proteins, ELISA kits, molecular biology reagents, consumables, and selected lab instruments or equipment.",
     servicesEyebrow: "What we do",
-    servicesTitle: "Validation, lead generation, and channel readiness.",
-    serviceOneTitle: "GTM Validation Sprint",
-    serviceOneText: "Segment selection, competitor scan, ICP definition, prospect list, outreach testing, and go/no-go recommendations.",
-    serviceTwoTitle: "Scientific Lead Generation",
-    serviceTwoText: "Targeted outreach to PI labs, core facilities, biotech teams, CRO/CDMO groups, and pharma discovery users.",
-    serviceThreeTitle: "Distributor Readiness",
-    serviceThreeText: "Distributor mapping, pitch assets, margin story, technical FAQ, and partner outreach preparation.",
-    serviceFourTitle: "Sales Asset Localization",
-    serviceFourText: "English one-pagers, email sequences, application pitches, battlecards, and meeting scripts for North American buyers.",
+    servicesTitle: "Chinese media presence, content localization, and channel readiness.",
+    serviceOneTitle: "China Market Positioning",
+    serviceOneText: "Translate product value into China-ready messaging for researchers, procurement teams, and potential distributor partners.",
+    serviceTwoTitle: "Chinese Scientific Media Presence",
+    serviceTwoText: "Content planning and publication support for WeChat Official Account, Xiaohongshu, Zhihu, and other China-facing scientific channels.",
+    serviceThreeTitle: "Distributor Coordination",
+    serviceThreeText: "Distributor mapping, pitch preparation, early communication support, meeting coordination, and follow-up materials.",
+    serviceFourTitle: "Application Content Localization",
+    serviceFourText: "Chinese product stories, application notes, FAQ, comparison angles, and platform-ready posts for research audiences.",
     modelEyebrow: "Engagement model",
-    modelTitle: "Validate first. Scale only when the market responds.",
+    modelTitle: "Build visibility first. Test channel interest second.",
     phaseOneLabel: "Phase 1",
-    phaseOneTitle: "4-6 week validation sprint",
-    phaseOneText: "Clarify product positioning, test buyer response, identify high-fit contacts, and define the next market step.",
+    phaseOneTitle: "China visibility sprint",
+    phaseOneText: "Clarify Chinese positioning, choose priority platforms, prepare content themes, and build the first localized media assets.",
     phaseTwoLabel: "Phase 2",
-    phaseTwoTitle: "Pilot sales support",
-    phaseTwoText: "Support meeting preparation, technical messaging, trial coordination, objections, and quote follow-up.",
+    phaseTwoTitle: "Media and audience testing",
+    phaseTwoText: "Publish selected content, monitor responses, refine messaging, and identify which applications or product lines attract attention.",
     phaseThreeLabel: "Phase 3",
-    phaseThreeTitle: "Channel development",
-    phaseThreeText: "Prepare distributor-facing assets, partner mapping, pitch materials, and a repeatable sales playbook.",
-    boundaryEyebrow: "Focused GTM partnership",
-    boundaryTitle: "Practical support from market validation to channel readiness.",
-    boundaryText: "Merlin Scientific helps manufacturers clarify positioning, test buyer response, prepare sales assets, identify qualified prospects, and open the right customer or channel conversations. Product fulfillment, import, logistics, warranty, and regulatory execution are coordinated through the manufacturer or its appointed operational partners.",
+    phaseThreeTitle: "Channel coordination",
+    phaseThreeText: "Prepare distributor-facing assets, map potential partners, coordinate introductory conversations, and support follow-up.",
+    boundaryEyebrow: "Lightweight China market support",
+    boundaryTitle: "Practical support from Chinese visibility to channel readiness.",
+    boundaryText: "Merlin Scientific provides China market communications, content localization, media positioning, and channel coordination support. Product registration, import, logistics, warehousing, invoicing, warranty, after-sales service, and distributor agreements remain with the manufacturer and its appointed partners.",
     aboutEyebrow: "About Merlin Scientific",
-    aboutTitle: "Scientific sales and BD support for the messy middle of market entry.",
-    aboutTextOne: "North American buyers rarely have time to decode an unfamiliar supplier. They want to know what problem a product solves, how it compares with current options, what data supports it, and who is responsible when something goes wrong.",
-    aboutTextTwo: "Merlin Scientific helps manufacturers turn product catalogs into focused market conversations, with positioning, outreach, channel preparation, and early customer discovery built around real research use cases.",
+    aboutTitle: "Scientific content and BD support for the messy middle of China market entry.",
+    aboutTextOne: "Chinese researchers and channel partners rarely engage with an unfamiliar overseas supplier before they can search for it, read about it in Chinese, and understand its application value.",
+    aboutTextTwo: "Merlin Scientific helps manufacturers turn English product catalogs into Chinese scientific content, platform-ready media assets, and practical channel conversations built around real research use cases.",
     contactEyebrow: "Contact",
     contactTitle: "Start with a focused market conversation.",
-    contactText: "If you are evaluating North America for a life science reagent, consumable, instrument, or research equipment product line, send a short note with the product category and target market.",
-    footerText: "© 2026 Merlin Scientific. GTM advisory and business development support for the North American research market."
+    contactText: "If you are evaluating China for a life science reagent, consumable, instrument, or research equipment product line, send a short note with the product category and current China presence.",
+    footerText: "© 2026 Merlin Scientific. Chinese media, GTM communications, and channel coordination support for the China research market."
   },
   zh: {
     title: "美领科研出海 | 生命科学工具企业的北美 GTM 伙伴",
@@ -103,6 +103,8 @@ const translations = {
 
 const metaDescription = document.querySelector('meta[name="description"]');
 const buttons = document.querySelectorAll("[data-lang-option]");
+const languageScopedElements = document.querySelectorAll("[data-lang-visible]");
+const languageImages = document.querySelectorAll("[data-lang-src-en]");
 
 function setLanguage(lang) {
   const dictionary = translations[lang] || translations.en;
@@ -125,6 +127,17 @@ function setLanguage(lang) {
     const isActive = button.dataset.langOption === lang;
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
+  });
+
+  languageScopedElements.forEach((element) => {
+    element.hidden = element.dataset.langVisible !== lang;
+  });
+
+  languageImages.forEach((image) => {
+    const source = lang === "zh" ? image.dataset.langSrcZh : image.dataset.langSrcEn;
+    if (source) {
+      image.setAttribute("src", source);
+    }
   });
 
   localStorage.setItem("merlin-language", lang);
