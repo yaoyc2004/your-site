@@ -242,7 +242,7 @@ h3 {
 }
 
 .service-card {
-  min-height: 310px;
+  min-height: 280px;
   padding: 24px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -263,18 +263,38 @@ h3 {
   color: var(--muted);
 }
 
-.platform-strip {
+.platforms {
+  padding-top: clamp(18px, 3vw, 34px);
+}
+
+.platforms .section-heading {
+  max-width: 820px;
+  margin-bottom: 24px;
+}
+
+.platforms h2 {
+  max-width: 900px;
+  font-size: clamp(26px, 3.2vw, 40px);
+}
+
+.platform-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 22px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
 }
 
 .platform-item {
   display: grid;
   justify-items: center;
-  gap: 7px;
+  gap: 10px;
   min-width: 0;
+  padding: 14px 10px;
+  border-radius: 8px;
+  background: rgba(237, 244, 242, 0.62);
 }
 
 .platform-item strong {
@@ -288,8 +308,8 @@ h3 {
 }
 
 .platform-logo {
-  width: 42px;
-  height: 42px;
+  width: 54px;
+  height: 54px;
   object-fit: cover;
   border: 1px solid rgba(216, 226, 225, 0.78);
   border-radius: 10px;
@@ -421,6 +441,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .platform-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .phase-list article {
     grid-template-columns: 1fr;
     gap: 6px;
@@ -462,12 +486,8 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .platform-strip {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .platform-item strong {
-    display: none;
+  .platform-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .button {
