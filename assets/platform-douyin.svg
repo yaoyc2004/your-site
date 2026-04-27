@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Douyin">
+  <rect width="256" height="256" fill="#050505"/>
+  <path d="M143 50v84a38 38 0 1 1-25-36v27a14 14 0 1 0 7 12V50h18Z" fill="#25f4ee" transform="translate(-8 3)"/>
+  <path d="M143 50c8 21 24 35 47 38v27c-19-2-35-9-47-21v40a38 38 0 1 1-25-36v27a14 14 0 1 0 7 12V50h18Z" fill="#fe2c55" transform="translate(8 0)"/>
+  <path d="M143 50c8 21 24 35 47 38v27c-19-2-35-9-47-21v40a38 38 0 1 1-25-36v27a14 14 0 1 0 7 12V50h18Z" fill="#fff"/>
+  <text x="128" y="216" fill="#fff" font-family="'Microsoft YaHei', SimHei, Arial, sans-serif" font-size="43" font-weight="800" text-anchor="middle">抖音</text>
+</svg>
