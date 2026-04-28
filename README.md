@@ -1,14 +1,10 @@
-# Merlin Scientific Website
+# Merlin Scientific Two-Page Preview Site
 
-Static website for Merlin Scientific, hosted with GitHub Pages and connected to merlinscientific.com.
+This folder is a deploy-ready preview package for testing a two-page structure on a GitHub branch.
 
-## Files
+- `/` is the English page for Western life science tool companies entering China.
+- `/cn/` is the Chinese page for Chinese life science tool companies entering North America.
+- Each page has its own title, meta description, canonical URL, and content focus.
+- The language switch is a normal page link, not a JavaScript content swap.
 
-- `index.html`: one-page website content
-- `styles.css`: website styling
-- `language.js`: English/Chinese language switch
-- `assets/`: image assets
-- `CNAME`: custom domain for GitHub Pages
-- `.nojekyll`: publishes files directly without Jekyll
-- `404.html`: simple error page
-- `robots.txt` and `sitemap.xml`: search engine basics
+Copy the contents of this folder to the root of a GitHub Pages branch to preview it.
