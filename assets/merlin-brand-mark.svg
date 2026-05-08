@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Merlin mark</title>
+  <desc id="desc">Abstract scientific sample grid and sourcing flow mark.</desc>
+  <rect width="96" height="96" rx="20" fill="#fbfaf7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 20 18 36v24l10 16" stroke="#0a5960" stroke-width="5"/>
+    <path d="M34 16h22l14 10 6 10" stroke="#0a5960" stroke-width="5"/>
+    <path d="M76 60 66 76H44" stroke="#0a5960" stroke-width="5"/>
+    <path d="M66 24c8 5 12 13 12 24" stroke="#8b989b" stroke-width="5"/>
+    <path d="M56 42h18m-16 8h18m-20 8h18" stroke="#8b989b" stroke-width="3.6"/>
+    <path d="M74 42h8m-6 8h8m-10 8h8" stroke="#8b989b" stroke-width="3.6"/>
+  </g>
+  <g fill="#0a5960">
+    <circle cx="30" cy="30" r="4.2"/>
+    <circle cx="30" cy="44" r="4.2"/>
+    <circle cx="30" cy="58" r="4.2"/>
+  </g>
+  <g fill="#aeb8ba">
+    <circle cx="44" cy="30" r="4.2"/>
+    <circle cx="58" cy="30" r="4.2"/>
+    <circle cx="44" cy="44" r="4.2"/>
+    <circle cx="58" cy="44" r="4.2"/>
+    <circle cx="44" cy="58" r="4.2"/>
+    <circle cx="58" cy="58" r="4.2"/>
+  </g>
+  <circle cx="44" cy="44" r="4.2" fill="#9ab879"/>
+  <g fill="#0a5960">
+    <circle cx="28" cy="20" r="4.3"/>
+    <circle cx="18" cy="60" r="4.3"/>
+    <circle cx="44" cy="80" r="4.3"/>
+  </g>
+  <g fill="#8b989b">
+    <circle cx="84" cy="42" r="3.6"/>
+    <circle cx="86" cy="50" r="3.6"/>
+    <circle cx="84" cy="58" r="3.6"/>
+  </g>
+</svg>
